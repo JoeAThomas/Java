@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LithiumGrading
+comment0.text=\r\n\ This\ calss\ makes\ use\ of\ the\ tray\ of\ lithium\ created\ in\ the\ GenaerateLithium\ class\r\n\ so\ that\ the\ lithium\ can\ be\ graded,\ as\ it\ is\ important\ for\ customers\r\n\ to\ buy\ highly\ graded\ lithium.\r\n\ Sorts\ grades\ of\ lithium\ from\ high\ to\ low.\ \r\n\ Consists\ of\ two\ methods\ which\ seperates\ the\ grades\ into\ two\ ArrayLists\r\n\ and\ then\ sorts\ them\ in\ accending\ order.\r\n\r\n\ @Joe\ Thomas\r\n\ @11/10/2019\r\n
+comment1.params=generatelithium
+comment1.target=LithiumGrading(GenerateLithium)
+comment1.text=\r\n\ Constructor\ for\ object\ of\ the\ class\ LithiumGrading.\r\n\ creating\ a\ method\ which\ calls\ the\ getTray\ which\ is\ returned\ in\ GenerateLithium.\r\n\ calls\ the\ GenerateLithium\ class,\ creates\ new\ version\ and\ saves\ it\ in\ \r\n\ generatelithium\ which\ then\ allows\ us\ to\ access\ its\ methods.\r\n
+comment2.params=tray
+comment2.target=void\ GenerateGrades(int[][])
+comment2.text=\r\n\ @param\ takes\ Array\ from\ GenerateLithium\ as\ a\ parameter.\r\n\ Determins\ if\ it's\ a\ high\ quality\ of\ lithium\ or\ not.\ If\ integer\ in\ tray\r\n\ is\ higher\ than\ 25\ put\ the\ integer\ into\ the\ "highGrade"\ ArrayList\r\n\ else\ store\ it\ in\ "lowGrade"\r\n\ Class\ makes\ use\ of\ two\ for\ loops.\ An\ outer\ and\ inner.\r\n\ Takes\ the\ fist\ integer\ from\ the\ tray.\ compares\ it\ again\ the\ max\ int\ of\ 25.\r\n
+comment3.params=
+comment3.target=void\ sortingLithium()
+comment3.text=\r\n\ Two\ bubble\ sorts\ which\ sort\ low-grades\ as\ well\ as\ high-grades\ in\ ascending\ order.\r\n\ Iterates\ through\ the\ highGrade\ ArrayList,\ compares\ elements\ with\ one\ another\r\n\ swaps\ if\ the\ first\ one\ is\ larger\ than\ second\ one.\ Repeated\ untill\ entire\ \r\n\ arraylist\ sorted.\ \r\n
+numComments=4

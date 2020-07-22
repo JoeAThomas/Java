@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GenerateLithium
+comment0.text=\r\n\ This\ class\ is\ resonsible\ for\ generating\ and\ printing\ a\ tray\ of\ lithium\r\n\ in\ the\ form\ of\ five\ lines\ of\ three\ integers.\ This\ is\ the\ starting\ point\r\n\ of\ the\ project\ and\ creates\ an\ Array\ (called\ tray)\ which\ can\ be\ passed\r\n\ throughout\ the\ other\ classes.\r\n\r\n\ Joe\ Thomas\r\n\ 06/10/2019\r\n
+comment1.params=
+comment1.target=GenerateLithium()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GenerateLithium\r\n
+comment2.params=
+comment2.target=void\ generateSample()
+comment2.text=\r\n\ Uses\ a\ for\ loop\ to\ generate\ 15\ integers\ which\ are\ equal\ and\ less\ than\ 50\r\n\ When\ assingns\ the\ elemets\ to\ the\ two\ dimential\ Array\ "tray".\r\n
+comment3.params=
+comment3.target=void\ printTray()
+comment3.text=\r\n\ Prints\ the\ generated\ lithium\ from\ generateSample().\r\n\ Prints\ on\ five\ by\ three\ grid\ which\ is\ seperated\ by\ "||"\ to\ for\ the\ border.\r\n\ uses\ two\ for\ loops,\ if\ and\ else\ statment.\r\n
+comment4.params=
+comment4.target=int[][]\ getTray()
+comment4.text=\r\n\ @return\ the\ two\ dimentional\ Array,\ tray.\ \r\n\ so\ that\ can\ be\ called\ amungst\ other\ classes.\r\n
+numComments=5

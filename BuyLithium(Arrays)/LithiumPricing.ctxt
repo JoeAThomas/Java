@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LithiumPricing
+comment0.text=\r\n\ Makes\ use\ of\ HashMaps\ (key\ andvalues)\ to\ set\ the\ pricing\ of\ the\ lithium\r\n\ as\ this\ class\ is\ reponsable\ for\ ebsuring\ that\ each\ litium\ sample\ is\ given\r\n\ a\ price.\ \r\n\ Makes\ use\ of\ three\ methods\ two\ of\ which\ assign\ the\ grades\ to\ the\ lithium\ \r\n\ other\ which\ prints\ the\ list\ of\ sorted\ grades\ and\ lithium\r\n\ and\ the\ third\ returning\ the\ HashMap\ which\ allows\ for\ the\ HashMap\ to\ be\ \r\n\ called\ in\ other\ classes\ of\ the\ project.\r\n\r\n\ @Joe\ Thomas\r\n\ @18/10/2019\r\n
+comment1.params=generatelithium
+comment1.target=LithiumPricing(GenerateLithium)
+comment1.text=\r\n\ Constructor\ for\ object\ of\ the\ class\ LithiumGrading.\r\n\ creating\ a\ method\ which\ calls\ the\ getTray\ which\ is\ returned\ in\ GenerateLithium.\r\n\ calls\ the\ GenerateLithium\ class,\ creates\ new\ version\ and\ saves\ it\ in\ \r\n\ generatelithium\ which\ then\ allows\ us\ to\ access\ its\ methods.\r\n
+comment2.params=
+comment2.target=void\ setPrice()
+comment2.text=\r\n\ setPrice\ assigns\ a\ Double\ to\ the\ Integer.\ \r\n\ utalises\ two\ for\ loops\ (inner\ and\ outer)\ allows\ method\ to\ gain\ int\ \r\n\ from\ the\ previously\ created\ Array\ tray.\ \r\n\ Makes\ a\ check\ on\ the\ gotten\ tray\ number,\ then\ compares\ it\ \r\n\ to\ a\ Double.\ If\ the\ statment\ is\ true\ then\ assignt\ elements\ to\ HashMap.\r\n\ Does\ this\ untill\ all\ elements\ are\ assignted\ a\ value.\ Duplicates\ \r\n\ keys\ aren't\ supported\ in\ a\ HashMap\ so\ they\ aren't\ added\ to\ HashMap.\r\n
+comment3.params=
+comment3.target=java.util.HashMap\ getPrice()
+comment3.text=\r\n\ @return\ HashMap\ \r\n\ Allows\ HashMap\ to\ be\ accessed\ in\ BuyLithium\ class.\r\n\ HashMap\ is\ called\ "pricing".\r\n
+comment4.params=
+comment4.target=void\ printPrice()
+comment4.text=\r\n\ returns\ the\ set\ of\ keys\ from\ the\ HashMap.\r\n\ overall\ prints\ the\ Hashmap.\r\n
+numComments=5

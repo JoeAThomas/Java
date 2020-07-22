@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BuyLithium
+comment0.text=\r\n\ This\ class\ conisists\ of\ 2\ methods,\ the\ first\ one\ allows\ the\ user\ to\ enter\r\n\ an\ integer\ in\ which\ will\ then\ print\ all\ of\ the\ avalible\ less\ than\ and\ equal\r\n\ to\ the\ entered\ price.\r\n\ The\ second\ allows\ the\ user\ to\ enter\ anther\ integer\ which\ will\ sort\ through\r\n\ the\ keys\ saved\ in\ the\ HashMap\ to\ print\ the\ elements\ less\ and\ and\ equal\ to\ it.\r\n\r\n\ @Joe\ Thomas\r\n\ @22/10/2019\r\n
+comment1.params=lithiumpricing
+comment1.target=BuyLithium(LithiumPricing)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BuyLithium,\ allows\ us\ to\ call\ methods\r\n\ from\ LithiumPricing.\r\n\ calls\ on\ the\ "getPrice()"\ method\ from\ LithiumPricing.\r\n
+comment2.params=searchvalue
+comment2.target=void\ findBestPrice(int)
+comment2.text=\r\n\ Iterates\ through\ a\ for\ loop\ to\ gain\ values\ through\ the\ HashMap\ "pricing".\r\n\ @param\ takes\ a\ parameter\ entered\ by\ the\ user.\r\n\ Will\ print\ all\ of\ the\ values\ and\ keys\ lower\ than\ the\ int\ the\r\n\ user\ enetered.\r\n
+comment3.params=searchkey
+comment3.target=void\ findHighQuality(int)
+comment3.text=\r\nIterates\ through\ a\ for\ loop\ to\ gain\ values\ through\ the\ HashMap\ "pricing".\r\n@param\ takes\ a\ parameter\ entered\ by\ the\ user.\r\nWill\ print\ all\ of\ the\ keys\ and\ values\ available.\r\n
+numComments=4
