@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Programme
+comment0.text=\r\n\ Calcuates\ Memory\ Cache\ via\ LRU.\ \r\n\r\n\ @author\ jt539\r\n\ @version\ (10/04/2020)\r\n
+comment1.params=w1\ c\ b\ k1\ fileNumber1
+comment1.target=Programme(int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Programme\r\n\ holds\ the\ values\ for\ the\ W,\ C,\ B\ and\ K\r\n
+comment2.params=
+comment2.target=void\ loadCacheFile()
+comment3.params=
+comment3.target=void\ binaryConversion()
+comment4.params=
+comment4.target=void\ packBinary()
+comment5.params=
+comment5.target=void\ calculationTag()
+comment6.params=
+comment6.target=void\ calCachMemory()
+comment7.params=Block
+comment7.target=void\ LRUCache(java.util.ArrayList)
+comment8.params=
+comment8.target=void\ overalCalc()
+numComments=9
